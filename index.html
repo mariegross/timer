@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="timer.css" />
+  </head>
+  <body>
+    <div class="timer-container">
+      <button onclick="countdownStart()" class="timer__action__btn">
+        <img src="../timer/src/icon-play-circle.svg" alt="Play icon black" />
+      </button>
+      <div class="timer__displaybox">
+        <div class="timer__displaybox__name">
+          <input
+            type="number"
+            placeholder="Do you have a second?"
+            id="selector"
+          />
+        </div>
+        <div class="timer__displaybox__number"></div>
+      </div>
+    </div>
+
+    <script src="timer.js"></script>
+  </body>
+</html>
